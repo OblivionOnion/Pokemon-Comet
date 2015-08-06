@@ -1,0 +1,135 @@
+a {
+color: #FFF000;
+text-decoration: underline;
+}
+a:visited {
+color: #FFF000;
+text-decoration: underline;
+}
+a:active {
+color: #FF0000;
+text-decoration: bold;
+}
+a:hover {
+color: #FF0000;
+text-decoration: bold;
+}
+body {
+font-family: Verdana;
+font-size: 11px;
+color: #FFFFFF;
+background: #aec7ff url('http://i39.tinypic.com/ylc1h.gif') repeat-x;
+width: 800px;
+margin: 2px;
+background-color: #000000;
+align: center;
+text-align: center;
+valign: top;
+}
+td, tr, table {
+font-family: Verdana;
+font-size: 11px;
+text-align: center;
+border-collapse: collapse;
+}
+#centerlayout {
+margin: 0px;
+left: 50%;
+top: 0%;
+position: absolute;
+margin-left: -400px;
+margin-right: 0px; 
+margin-top: 0px; 
+margin-bottom: 0px; 
+}
+#banner {
+width: 800px;
+height: 125px;
+background-color: #112233;
+background-image: url('http://pcomet.comeze.com/images/layout/cometbanner.png');
+}
+h1 {
+font-family: Verdana;
+font-size: 11px;
+border: 1px solid black;
+margin: 2px;
+text-align: center;
+color: #FFFFFF;
+background-image: url('http://pcomet.comeze.com/images/layout/sidebar.png');
+}
+#leftmenu {
+font-family: Verdana;
+font-size: 11px;
+border-right: 1px solid black;
+border-left: 1px solid black;
+width: 150px;
+background-color: #112233;
+min-height: 200px;
+text-align: center;
+}
+#center {
+font-family: Verdana;
+font-size: 11px;
+border: 0px;
+width: 500px;
+background-color: #112233;
+height: 300px;
+}
+#rightmenu {
+font-family: Verdana;
+font-size: 11px;
+border-right: 1px solid black;
+border-left: 1px solid black;
+width: 150px;
+background-color: #112233;
+text-align: center;
+}
+#footer {
+font-family: Verdana;
+font-size: 11px;
+border: 1px solid black;
+width: 800px;
+height: 75px;
+background-color: #112233;
+text-align: top;
+}
+input {
+	border: 1px solid black;
+        text-decoration: bold;
+        color: #080FFF;
+}
+textarea {
+	border: 1px solid black;
+        color: #080FFF;
+}
+img {
+border: 0px;
+}
+#battlename {
+border: 1px solid black;
+background-color: #909090;
+}
+#yourhp {
+border: 1px solid black;
+color: #FF0000;
+background-color: gray;
+height: 10px;
+width: 100px;
+text-align: left;
+}
+#otherhp {
+border: 1px solid black;
+color: #FF0000;
+background-color: gray;
+height: 10px;
+width: 100px;
+text-align: right;
+}
+legend {
+border: 1px solid black;
+margin: 3px;
+}
+fieldset {
+border: 1px solid black;
+margin: 1px;
+}
